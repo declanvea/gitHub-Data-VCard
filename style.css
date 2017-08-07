@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+header {
+  font-family:monospace;
+  text-align: center;
+  width: 100%;
+  font-size: 45px;
+  background-color: #282828;
+  color: white;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  /*background:
+    linear-gradient(
+      45deg, transparent 33.333%,
+      #282828 33.333%, #282828 66.667%,
+      transparent 66.667%
+    ),
+    linear-gradient(
+      -45deg, transparent 33.333%,
+      #282828 33.333%, #282828 66.667%,
+      transparent 66.667%
+    );*/
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+.bio {
+  width: 30%;
+  padding: 30px;
+}
+.bio p {
+  border-left: solid 1px;
+  padding: 15px;
+}
+.basics {
+  width: 30%;
+  padding: 30px;
+  text-align: center;
+}
+.story {
+  text-align: center;
+}
+input {
+  width: 30%;
+  padding: 30px;
+}
