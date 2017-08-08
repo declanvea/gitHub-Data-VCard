@@ -16,24 +16,20 @@ function reqListener() {
   console.log(data);
 
   let name = document.createElement("p");
-  name.innerHTML = `Name: ${data.name}`;
+  name.innerHTML = `<span>Name:</span> ${data.name}`;
   basics.appendChild(name);
 
   let url = document.createElement("p");
-  url.innerHTML = `GitHub URL: ${data.blog}`;
+  url.innerHTML = `<span>GitHub URL:</span> ${data.blog}`;
   basics.appendChild(url);
 
   let email = document.createElement("p");
-  email.innerHTML = `Email: declanpvea@gmail.com`;
+  email.innerHTML = `<span>Email:</span> declanpvea@gmail.com`;
   basics.appendChild(email);
 
   let company = document.createElement("p");
-  company.innerHTML = `Company: ${data.company}`;
+  company.innerHTML = `<span>Company:</span> ${data.company}`;
   basics.appendChild(company);
-
-  // let website = document.createElement("p");
-  // website.innerHTML = `Website: ${data.url}`;
-  // basics.appendChild(website);
 
   let bio = document.createElement("p");
   bio.innerHTML = `${data.bio}`;

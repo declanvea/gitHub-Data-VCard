@@ -26,6 +26,7 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  align-items: center;
   background-color: white;
 }
 #basics {
@@ -36,18 +37,28 @@ header {
 #basics p {
   font-size: 12px;
   text-align: left;
+  color: gray;
+}
+#basics p span {
+  color: #4C997F;
 }
 #story {
   text-align: center;
+  width: 30%;
 }
 #story p {
-  font-size: 12px;
+  font-size: 15px;
   text-align: left;
+  border-left: solid 1px;
+  border-color: gray;
+  padding-left: 25px;
+  color: gray;
 }
 #image {
   width: 30%;
   padding: 30px;
 }
 #image img {
-  width: 50%;
+  width: 40%;
+  border-radius: 50%;
 }
