@@ -28,23 +28,26 @@ header {
   flex-wrap: nowrap;
   background-color: white;
 }
-.bio {
-  width: 30%;
-  padding: 30px;
-}
-.bio p {
-  border-left: solid 1px;
-  padding: 15px;
-}
-.basics {
+#basics {
   width: 30%;
   padding: 30px;
   text-align: center;
 }
-.story {
+#basics p {
+  font-size: 12px;
+  text-align: left;
+}
+#story {
   text-align: center;
 }
-input {
+#story p {
+  font-size: 12px;
+  text-align: left;
+}
+#image {
   width: 30%;
   padding: 30px;
+}
+#image img {
+  width: 50%;
 }
